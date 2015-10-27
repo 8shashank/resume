@@ -1,5 +1,13 @@
 \documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
 
+%Code to get rid of ugly blue URLs
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={black!80!black}
+}
 \begin{document}
 
 %----------------------------------------------------------------------------------------
@@ -8,9 +16,9 @@
 
 \lastupdated % Print the Last Updated text at the top right
 
-\namesection{Shashank}{Sharma}{ % Your name
-\urlstyle{same}\url{https://github.com/8shashank} \\ % Your website, LinkedIn profile or other web address
-\href{mailto:shashank.sharma@vanderbilt.edu}{shashank.sharma@vanderbilt.edu} | 615.525.3541 % Your contact information
+\namesection{Shashank}{Sharma}{
+\urlstyle{same}\url{https://github.com/8shashank} \\ 
+\href{mailto:shashank.sharma@vanderbilt.edu}{shashank.sharma@vanderbilt.edu} | 615.525.3541
 }
 
 %----------------------------------------------------------------------------------------
@@ -110,7 +118,7 @@ Node.JS \\
 \section{Experience}
 
 \runsubsection{Epic Systems}
-\descript{|Software Engineering Intern}
+\descript{| Software Engineering Intern}
 
 \location{May 2015 - August 2015 | Madison, WI}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
